@@ -233,9 +233,6 @@ Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarasc
 
 For installation details please refer to [INSTALL.md](INSTALL.md).
 
-## Customizing
-
-For customization details please refer to [CUSTOMIZE.md](CUSTOMIZE.md).
 
 ## Features
 

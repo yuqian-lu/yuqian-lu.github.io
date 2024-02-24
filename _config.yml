@@ -206,7 +206,6 @@ include: ["_pages"]
 exclude:
   - bin
   - CONTRIBUTING.md
-  - CUSTOMIZE.md
   - docker-compose.yml
   - Dockerfile
   - FAQ.md
