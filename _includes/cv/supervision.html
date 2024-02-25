@@ -1,0 +1,31 @@
+
+{% capture number_master %}{% bibliography_count -f supervision_master %}{% endcapture %}
+{% capture number_undergraduate %}{% bibliography_count -f supervision_undergraduate %}{% endcapture %}
+
+{% assign total_students = number_master | plus: number_undergraduate %}
+
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item">
+      <h5 class="font-italic">I have supervised {{total_students}} students, including</h5>
+        <ul class="subitems">
+            <li><span class="subitem">
+              {{number_master}} Master student
+            </span></li>
+            <li><span class="subitem">
+              {{number_undergraduate}} Undergraduate students
+            </span></li>
+        </ul>
+      </li>
+      <li class="list-group-item">
+        <h5 class="font-italic">See the full list</h5>
+          <ul class="subitems">
+              <li><span class="subitem">
+                Online &nbsp; <a href = "https://www.silviofanzon.com/supervision/"><i class="fas fa-external-link-alt"></i></a>
+              </span></li>
+              <li><span class="subitem">
+                Download &nbsp; <a href = "https://www.silviofanzon.com/assets/pdf/Silvio_Fanzon_CV.pdf"><i class="fas fa-file-pdf"></i></a>
+              </span></li>
+          </ul>
+      </li>
+</ul>

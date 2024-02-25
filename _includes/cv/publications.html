@@ -1,0 +1,36 @@
+{% capture number_preprint %}{% bibliography_count -f publications_preprint %}{% endcapture %}
+{% capture number_journal %}{% bibliography_count -f publications_journal %}{% endcapture %}
+{% capture number_book %}{% bibliography_count -f publications_miscellaneous -q @book %}{% endcapture %}
+{% capture number_thesis %}{% bibliography_count -f publications_theses %}{% endcapture %}
+
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item">
+      <h5 class="font-italic">I have authored</h5>
+        <ul class="subitems">
+            <li><span class="subitem">
+              {{number_preprint}} Preprint
+            </span></li>
+            <li><span class="subitem">
+              {{number_journal}} Peer-reviewed Journal Articles
+            </span></li>
+            <li><span class="subitem">
+              {{number_book}} Book
+            </span></li>
+            <li><span class="subitem">
+              {{number_thesis}} Theses
+            </span></li>
+        </ul>
+      </li>
+      <li class="list-group-item">
+        <h5 class="font-italic">See the full list</h5>
+          <ul class="subitems">
+              <li><span class="subitem">
+                Online &nbsp; <a href = "https://www.silviofanzon.com/publications/"><i class="fas fa-external-link-alt"></i></a>
+              </span></li>
+              <li><span class="subitem">
+                Download &nbsp; <a href = "https://www.silviofanzon.com/assets/pdf/Silvio_Fanzon_CV.pdf"><i class="fas fa-file-pdf"></i></a>
+              </span></li>
+          </ul>
+      </li>
+</ul>

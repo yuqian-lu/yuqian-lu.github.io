@@ -1,97 +1,460 @@
+#################   General Information   #####################
+
+
 - title: General Information
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Silvio Fanzon
+    - name: Currently 
+      value: Lecturer in Applied Mathematics
+    - name: Institution 
+      value: University of Hull, UK
+    - name: Email
+      value: S.Fanzon@hull.ac.uk
+    - name: Website
+      value: <a href = "https://www.silviofanzon.com/">silviofanzon.com</a>
+    - name: Orcid
+      value: <a href = "https://orcid.org/0000-0003-1974-1434">0000-0003-1974-1434</a>
+    - name: Full CV
+      value: Download PDF &nbsp;  <a href = "https://www.silviofanzon.com/assets/pdf/Silvio_Fanzon_CV.pdf"><i class="fas fa-file-pdf"></i></a>
+
+
+
+
+#################   Research  Interests    #####################
+
+
+- title: Research Interests
+  type: map
+  contents:
+    - name: Mathematics
+      value: Optimization, Inverse Problems, PDEs
+    - name: Applications
+      value: Mathematical Imaging, Machine Learning, Materials Science
+    - name: Other
+      value: Optimal Transport, Variational methods, Measure theory, Regularity theory, Primal-dual methods, Gradient methods
+
+
+
+#################    EDUCATION    #####################
+
+
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Mathematics
+      institution: University of Sussex, UK
+      year: 2018
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+       - Thesis&#58; Geometric patterns and Microstructures in the study of Material Defects and Composites &nbsp;  <a href="/publications/#2018-Fan-PhD"><i class="fas fa-external-link-alt"></i></a>
+       - Advisor&#58; Mariapia Palombaro &nbsp;  <a href = "https://scholar.google.com/citations?user=RhU_lAoAAAAJ"><i class="fas fa-user"></i></a>
+       - "Grade: Pass with no corrections"
+          
+    - title: MSc in Mathematics
+      institution: Sapienza University of Rome, Italy
+      year: 2014
+      description:
+        - Thesis&#58; A variational approach to topological singularities in two-dimensions &nbsp;  <a href="/publications/#2014-Fan-MSc"><i class="fas fa-external-link-alt"></i></a>
+        - Advisor&#58; Marcello Ponsiglione &nbsp;  <a href="https://scholar.google.com/citations?user=VRqZ_8cAAAAJ"><i class="fas fa-user"></i></a>
+        - "Grade: 110/110 Cum Laude"
+
+    - title: BSc in Mathematics
+      institution: Sapienza University of Rome, Italy
+      year: 2011
+      description:
+        - Thesis&#58; The isoperimetric problem &nbsp;  <a href="/publications/#2011-Fan-BSc"><i class="fas fa-external-link-alt"></i></a>
+        - Advisor&#58; Annalisa Malusa &nbsp;  <a href="https://scholar.google.com/citations?user=8_h1W8kAAAAJ"><i class="fas fa-user"></i></a>
+        - "Grade: 110/110 Cum Laude"
+
+
+
+
+
+#################    Academic Positions    #####################
+
+
+
+- title: Academic Positions
+  type: time_table
+  contents:
+    - title: Lecturer in Applied Mathematics &nbsp; <a href="https://www.hull.ac.uk/staff-directory/silvio-fanzon"><i class="fas fa-external-link-alt"></i></a>
+      institution: University of Hull, UK
+      year: Since 2023
+      description:
+        - title: Research
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+            - Conducting original research 
+            - Authoring grant applications
+            - Dissemination activity
+        - title: Administrative
+          contents: 
+            - Taking part in public outreach events
+            - Acting as examiner in student Vivas
+        - title: Supervision
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Designing original thesis projects
+            - Supervision of Undergraduate and Master students
+            - Supervision of PhD Students
+        - title: Teaching
+          contents:
+            - Designing courses and teaching material
+            - Delivering in person and online classes
+            - Managing online resources
+            - Providing Intermediate and final assessment
+            - Providing student support through office hours
+        - title: Courses taught
+          contents:
+           - Statistical Models (2024)
+           - Differential Geometry & Topology (2023)
+           - Numbers, Sequences & Series (2023)
+
+
+
+    - title: Faculty Member
+      institution: University of Graz, Austria
+      year: 2022 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - title: Research
+          contents:
+            - Conducting original research 
+            - Co-authoring grant applications
+            - Dissemination activity
+        - title: Administrative
+          contents: 
+            - Organizing seminars for PhD School
+            - Providing support for grant applications
+        - title: Teaching
+          contents:
+            - Designing courses and teaching material
+            - Delivering in person and online classes
+            - Managing online resources
+            - Providing Intermediate and final assessment
+        - title: Courses taught
+          contents:
+           - Analysis 3 (2022)
+           - Inverse Problems (2022)
+            
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
-- title: Open Source Projects
+    - title: Postdoctoral Researcher
+      institution: University of Graz, Austria
+      year: 2018 - 2021
+      description: 
+        - title: Researcher on 3 Austrian Science Fund Projects
+          contents:
+            - Contributing to research output
+            - Writing intermediate and final reports
+            - Dissemination activity
+        - title: Administrative
+          contents: 
+            - Organizing department seminars
+            - Providing support for grant applications
+        - title: Teaching
+          contents:
+            - Designing courses and teaching material
+            - Delivering in person and online classes
+            - Managing online resources
+            - Providing Intermediate and final assessment
+        - title: Courses taught
+          contents:
+            - Calculus of Variations (2021)
+            - Advanced Functional Analysis (2019)
+            
+
+
+
+    - title: Associate Tutor
+      institution: University of Sussex, UK
+      year: 2014 - 2018
+      description: 
+        - title: Roles
+          contents:
+            - Facilitating exercitation classes of 30 students
+            - Marking assignments
+            - Offering office hours
+            - Invigilating tests
+        - title: Courses taught
+          contents:
+            - Mathematics Demystified (2016)
+            - Analysis 1 (2017)
+            - Geometry 1 (2017)
+            - Probability and Statistics (2015, 2016)
+            - Introduction to Probability (2015, 2016)
+            
+        
+
+
+
+#################    Publications    #####################
+
+
+
+
+- title: Publications
+  type: publications
+#  contents:
+#    - title: I have authored
+#      items: 
+#        - 9 Peer-reviewed Journal Articles
+#        - 1 Book
+#        - 3 Theses
+#    - title: See the full list
+#      items: 
+#        - Online &nbsp; <a href = "https://www.silviofanzon.com/publications/"><i class="fas fa-external-link-alt"></i></a>
+#        - Download &nbsp; <a href = "https://www.silviofanzon.com/assets/pdf/Silvio_Fanzon_CV.pdf"><i class="fas fa-file-pdf"></i></a>
+
+
+
+
+
+
+
+#################    IMPACT    #####################
+
+
+
+- title: Research Impact
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Project&#58; Regularization Graphs for Variational Imaging
+      institution: Funder&#58; Austrian Science Fund (FWF)
+      year: 2020 - 2021 
+      description:
+        - title: My role
+          contents: 
+            - Major contribution to research output
+            - Contributed to dissemination activity
+        - title: Project details
+          contents:
+            - Principal investigator Kristian Bredies &nbsp; <a href="https://scholar.google.com/citations?user=c1iKsfIAAAAJ"><i class="fas fa-user"></i></a>
+            - Project description &nbsp; <a href="https://mathematik.uni-graz.at/en/research/research-projects/fwf-project-p29192/"><i class="fas fa-external-link-alt"></i></a>
+            - FWF Project Webpage &nbsp; <a href="https://pf.fwf.ac.at/en/research-in-practice/project-finder/38078"><i class="fas fa-external-link-alt"></i></a> 
+            - Funding &#x20AC;231k
+    
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Project&#58; Solving bilinear inverse problems by tensorial lifting
+      institution: Funder&#58; Austrian Science Fund (FWF)
+      year: 2019 - 2021 
+      description:
+        - title: My role
+          contents: 
+            - Major contribution to research output
+            - Contributed to dissemination activity
+        - title: Project details
+          contents:
+            - Principal investigator Kristian Bredies &nbsp; <a href="https://scholar.google.com/citations?user=c1iKsfIAAAAJ"><i class="fas fa-user"></i></a>
+            - Project description &nbsp; <a href="https://mathematik.uni-graz.at/en/research/research-projects/fwf-project-p28858/"><i class="fas fa-external-link-alt"></i></a>
+            - FWF Project Webpage &nbsp; <a href="https://pf.fwf.ac.at/en/research-in-practice/project-finder/37213"><i class="fas fa-external-link-alt"></i></a> 
+            - Funding &#x20AC;221k    
+    
+    
+    - title: Project&#58; Mathematical methods for motion-aware medical imaging
+      institution: Funder&#58; Austrian Science Fund (FWF)
+      year: 2018 - 2020 
+      description:
+        - title: My role
+          contents: 
+            - Major contribution to research output
+            - Contributed to dissemination activity
+            - Contribued to intermediate and final reports
+        - title: Project details
+          contents:
+            - Principal investigator Kristian Bredies &nbsp; <a href="https://scholar.google.com/citations?user=c1iKsfIAAAAJ"><i class="fas fa-user"></i></a>
+            - Project description &nbsp; <a href="https://mathematik.uni-graz.at/en/research/research-projects/project-pir-27/"><i class="fas fa-external-link-alt"></i></a>
+            - FWF Project Webpage &nbsp; <a href="https://pf.fwf.ac.at/en/research-in-practice/project-finder/38573"><i class="fas fa-external-link-alt"></i></a> 
+            - Funding &#x20AC;234k    
 
-- title: Academic Interests
+
+
+    - title: PhD Studentship&#58; Rigidity problems and Microstructures in Materials Science
+      institution: Funder&#58; University of Sussex, UK
+      year: 2014 - 2018
+      description: 
+        - Full-time Salary for 3.5 Years (&#x00A3;49k)
+        - Fees Waiver for 3.5 Years (&#x00A3;14k)
+        - Travel and research grant (&#x00A3;5.8k)
+
+
+    - title: Travel support
+      year: 2014 - 2017 
+      institution: Funder&#58; The insitutions below (total &#x00A3;4k)
+      description: 
+            - Oxford University, UK
+            - Warwick University, UK
+            - Carnegie Mellon University, US
+            - National Research Council, Italy
+            - SISSA, Italy
+
+
+
+
+
+
+#################   Teaching    #####################
+
+
+
+
+- title: Teaching Experience
+  type: teaching
+#  contents:
+#    - title: I have taught 15 modules, including
+#      items: 
+#        - 7 Courses as Lecurer
+#        - 8 Courses as Teaching Assistant
+#    - title: See the full list
+#      items: 
+#        - Online &nbsp; <a href = "https://www.silviofanzon.com/teaching/"><i class="fas fa-external-link-alt"></i></a>
+#        - Download &nbsp; <a href = "https://www.silviofanzon.com/assets/pdf/Silvio_Fanzon_CV.pdf"><i class="fas fa-file-pdf"></i></a>
+
+
+
+
+
+#################   Supervision    #####################
+
+
+
+
+- title: Supervision
+  type: supervision
+#  contents:
+#    - title: I have supervised
+#      items: 
+#        - 1 Master Student
+#    - title: Full list 
+#      items: 
+#        - Online &nbsp; <a href = "https://www.silviofanzon.com/supervision/"><i class="fas fa-external-link-alt"></i></a>
+#        - Download &nbsp; <a href = "https://www.silviofanzon.com/assets/pdf/Silvio_Fanzon_CV.pdf"><i class="fas fa-file-pdf"></i></a>
+
+
+
+
+
+
+#################    Qualifications & Memberships    #####################
+
+
+
+- title: Qualifications & Memberships
   type: nested_list
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Member of the Inverse Problems International Association (IPIA) <a href="https://www.ipia.site"><i class="fas fa-external-link-alt"></i></a>
+    - title: Postgraduate Certificate in Academic Practice (PCAP)
+      items: 
+        - Enrolled in PCAP programme at the University of Hull
+        - Starting date September 2023
+        - Will lead to Fellowship of the Higher Education Academy (FHEA) &nbsp; <a href="https://www.advance-he.ac.uk/fellowship/fellowship"><i class="fas fa-external-link-alt"></i></a>
 
-- title: Other Interests
-  type: list
+
+
+
+
+
+#################    Technical Skills    #####################
+
+- title: Technical Skills
+  type: map
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - name: Coding
+      value: Python, Matlab, Mathematica, R, C
+    - name: Teaching
+      value: LaTex, Quarto, Canvas, Panopto, MS Office, MS Teams, Moodle
+    - name: Web
+      value:
+        - Git, HTML, CSS, JavaScript, Jekyll, Liquid, YAML, Markdown
+
+
+
+
+
+#################    Reviewer Activity    #####################
+
+- title: Reviewer Activity
+  type: nested_list
+  contents:
+    - title: I reviewed for the following Journals
+      items: 
+        - SIAM Journal on Mathematical Analysis &nbsp; <a href="https://www.siam.org/publications/journals/siam-journal-on-mathematical-analysis-sima"><i class="fas fa-external-link-alt"></i></a>
+        - SIAM Journal on Imaging Sciences &nbsp; <a href="https://www.siam.org/publications/journals/siam-journal-on-imaging-sciences-siims"><i class="fas fa-external-link-alt"></i></a>
+        - Numerische Mathematik &nbsp; <a href="https://www.springer.com/journal/211"><i class="fas fa-external-link-alt"></i></a>
+        - Inverse Problems and Imaging &nbsp;<a href="https://www.aimsciences.org/ipi"><i class="fas fa-external-link-alt"></i></a>
+        - Mathematics in Engineering &nbsp; <a href="https://www.aimspress.com/journal/mine"><i class="fas fa-external-link-alt"></i></a>    
+
+
+
+
+
+#################    Communication    #####################
+
+- title: Communication
+  type: talks
+#  contents:
+#    - title: I have given 16 presentations, including
+#      items: 
+#        - 13 oral presentations (12 invited)
+#        - 3 poster presentations (1 invited)
+#    - title: See the full list
+#      items: 
+#        - Online &nbsp; <a href = "https://www.silviofanzon.com/talks/"><i class="fas fa-external-link-alt"></i></a>
+#        - Download &nbsp; <a href = "https://www.silviofanzon.com/assets/pdf/Silvio_Fanzon_CV.pdf"><i class="fas fa-file-pdf"></i></a>
+
+
+
+
+#################    TEMPLATES    #####################
+
+
+#- title: General Information
+#  type: map
+#  contents:
+#    - name: Full Name
+#      value: Albert Einstein
+#    - name: Date of Birth
+#      value: 14th March 1879
+#    - name: Languages
+#      value: English, German
+
+
+
+
+# - title: Academic Interests
+#  type: nested_list
+#  contents:
+#    - title: Topic 1.
+#      items: 
+#        - Description 1.
+#        - Description 2.
+#    - title: Topic 2.
+#      items:
+#        - Description 1.
+#        - Description 2.
+
+
+# - title: Open Source Projects
+#  type: time_table
+#  contents:
+#    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#      year: 2015-now
+#      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+
+# - title: Honors and Awards
+#  type: time_table
+#  contents:
+#    - year: 1921
+#      items: 
+#        - Nobel Prize in Physics 
+#        - Matteucci Medal
+#    - year: 2029
+#      items: 
+#        - Max Planck Medal
+
+#- title: Other Interests
+#  type: list
+#  contents:
+#    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

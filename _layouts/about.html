@@ -1,0 +1,156 @@
+---
+layout: default
+---
+
+<!-- about.html -->
+      <div class="post">
+        <header class="post-header">
+          <h1 class="post-title">
+           {% if site.title == "blank" -%} <span class="font-weight-bold">{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}</span>>  {%- else -%}  <span class="font-weight-bold"> {{ site.title }} </span> {%- endif %} 
+          </h1>
+          <p class="desc" style="font-weight: 500;">{{ page.subtitle }}</p>
+        </header>
+
+        <article>
+          {% if page.profile -%}
+          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+            {%- if page.profile.image %}
+              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+
+              {% if page.profile.image_circular %}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+              {% else %}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+              {% endif %}
+
+              {% include figure.html
+              path=profile_image_path
+              class=profile_image_class
+              alt=page.profile.image -%}
+            {% endif -%}
+            {%- if page.profile.address %}
+            <div class="address">
+              {{ page.profile.address }}
+            </div>
+            {%- endif %}
+          </div>
+          {%- endif %}
+
+          <div class="clearfix">
+            {{ content }}
+          </div>
+
+         
+        
+        <hr style="margin-top: 2.5rem;">
+
+
+        <!-- News -->
+          {% if page.news -%}
+            <h3 style="margin-bottom: 1rem; margin-top: 2.5rem;"><b><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></b></h3>
+            {%- include news.html %}
+          <p> 
+            <a href="{{ '/news/' | relative_url }}"><b>past news</b></a>
+          </p>
+          {%- endif %}
+          
+          
+        <hr style="margin-top: 2.5rem;">
+
+       
+      <!-- Upcoming events-->
+       {% if page.next -%}
+       <h3 style="margin-bottom: 1rem; margin-top: 2.5rem;"><b>Upcoming Events</b></h3>
+       {%- include next.html %}
+      {%- endif %}
+     
+
+      <hr style="margin-top: 1.6rem;">
+
+
+          <!-- Selected papers -->
+          {% if page.selected_papers -%}
+          <h3 style="margin-bottom: 1rem; margin-top: 2.5rem;"><b>Selected Publications</b></h3>
+            {%- include selected_papers.html %}
+           <p>
+            <b><a href="{{ '/publications/' | relative_url }}">all publications</a></b>
+           </p> 
+          {%- endif %}
+
+
+        <hr style="margin-top: 2.5rem;">
+
+
+         <!-- Current teaching -->
+         {% if page.current_teaching -%}
+         <h3 style="margin-bottom: 1rem; margin-top: 2.5rem;"><b>Current Teaching</b></h3>
+            {% if page.current_courses -%}
+                {%- include current_teaching.html %}
+                <p>
+                  <a href="{{ '/teaching/' | relative_url }}"><b>past teaching</b></a> 
+                </p>
+            {% else %}
+              <p markdown="1" style="margin-bottom: 1.3rem; margin-top: 1.7rem;">
+                No teaching for this term :sunglasses:
+              </p>
+              <p>
+                <a href="{{ '/teaching/' | relative_url }}"><b>past teaching</b></a> 
+              </p>
+            {%- endif %}
+         {%- endif %}
+
+         
+         
+
+         <hr style="margin-top: 2.5rem;">
+
+
+
+         <h3 style="margin-bottom: 1rem; margin-top: 2.5rem;"><b>Useful Links</b></h3>
+                <p>
+                <ul style="padding-left: 1.2em;">
+                  <li><a href="https://cvgmt.sns.it/#gsc.tab=0"><b>CVGMT</b></a> (Calculus of Variations and Geometric Measure Theory)</li>
+                  <li><a href="https://primomath.wordpress.com"><b>PRIMO Research Group</b></a></li>
+                  <li><a href="https://www.ipia.site/Home/"><b>IPIA</b></a> (Inverse Problems International Association)</li>
+                  <li><a href="http://www.fips.fi"><b>FIPS</b></a> (Finnish Inverse Problems Society)</li>
+                  <li><a href="https://www.gamm-ev.de/en/"><b>GAMM</b></a> (Association of Applied Mathematics and Mechanics)</li>
+                  <li><a href="https://www.oneworldml.org/home"><b>One World ML</b></a> (Seminar Series on the Mathematics of Machine Learning)</li>
+                  <li><a href="https://sites.google.com/view/minds-seminar/home"><b>One World MINDS</b></a> (Seminar Series on Mathematics of INformation, Data, and Signals)</li>
+                </ul>  
+                </p>
+           
+
+
+                
+
+
+
+          <!-- Latest posts -->
+          {% if page.latest_posts -%}
+            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
+            {%- include latest_posts.html %}
+          {%- endif %}
+          
+
+
+       
+
+
+
+          <!-- Social -->
+          <!--
+          {%- if page.social %}
+            <div class="social">
+              <div class="contact-icons">
+                {% include social.html %}
+              </div>
+
+              <div class="contact-note">
+                {{ site.contact_note }}
+              </div>
+
+            </div>
+          {%- endif %}
+        </article>
+        -->
+</div>

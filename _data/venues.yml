@@ -1,6 +1,114 @@
+########  JOURNALS  ########
+
+"arXiv":
+  scopus: https://arxiv.org
+  url: https://arxiv.org
+
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
+  
+"Bulletin LMS":
+  scopus: https://www.scopus.com/sourceid/24481
+  url: https://www.lms.ac.uk/publications/blms
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Calc Var PDE":
+  scopus: https://www.scopus.com/sourceid/25309
+  url: https://www.springer.com/journal/526/
+
+"Commun PDE":
+  scopus: https://www.scopus.com/sourceid/25812
+  url: https://www.tandfonline.com/journals/lpde20
+
+"ESAIM: M2AN":
+  scopus: https://www.scopus.com/sourceid/25956
+  url: https://www.esaim-m2an.org/
+
+"FoCM":
+  scopus: https://www.scopus.com/sourceid/28470
+  url: https://www.springer.com/journal/10208
+
+"J Nonlinear Sci":
+  scopus: https://www.scopus.com/sourceid/82360
+  url: https://www.springer.com/journal/332
+
+"Math Program":
+  scopus: https://www.scopus.com/sourceid/28512
+  url: https://www.springer.com/journal/10107
+
+"SIMA":
+  scopus: https://www.scopus.com/sourceid/26418
+  url: https://www.siam.org/publications/journals/siam-journal-on-mathematical-analysis-sima
+
+
+
+########  THESES ########
+
+"BSc Thesis":
+  url: https://www.mat.uniroma1.it/en
+
+"MSc Thesis":
+  url: https://www.mat.uniroma1.it/en
+
+"PhD Thesis":
+  url: https://srodev.sussex.ac.uk/id/eprint/72566/
+
+
+
+######  MISCELLANEOUS  #############
+
+
+"ISMRM":
+  url: https://www.ismrm.org
+
+
+"LaDotta":
+  url: https://www.edizioniladotta.com
+
+
+
+
+
+########  Seminars Venues ########
+
+"AIP":
+  url: https://www.ipia.site/AIP-Conferences/
+
+"CIRM":
+  url: https://cirm.fbk.eu/home
+
+"CMU":
+  url: https://www.cmu.edu
+
+"Heriot-Watt":
+  url: https://www.hw.ac.uk  
+
+"ICCOPT":
+  url: https://www.mathopt.org
+
+"Orsay":
+  url: https://www.imo.universite-paris-saclay.fr/en/
+
+"Oxford":
+  url: https://www.ox.ac.uk
+
+"Sapienza":
+  url: https://www.uniroma1.it/en
+
+"SIMAI":
+  url: https://www.simai.eu  
+
+"Sussex":
+  url: https://www.sussex.ac.uk  
+
+"TraDE-OPT":
+  url: https://trade-opt-itn.eu/index.html
+
+"ULisboa":
+  url: https://www.ulisboa.pt/en
+
+"Uni Graz":
+  url: https://www.uni-graz.at/en/
+
+"Uni Wien":
+  url: https://www.univie.ac.at/en/

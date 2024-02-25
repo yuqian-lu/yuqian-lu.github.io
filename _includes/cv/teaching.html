@@ -1,0 +1,30 @@
+{% capture number_lecturer %}{% bibliography_count -f teaching_lecturer %}{% endcapture %}
+{% capture number_tutor %}{% bibliography_count -f teaching_tutor %}{% endcapture %}
+
+{% assign total_teaching = number_lecturer | plus: number_tutor %}
+
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item">
+      <h5 class="font-italic">I have taught {{total_teaching}} courses, including</h5>
+        <ul class="subitems">
+            <li><span class="subitem">
+              {{number_lecturer}} Courses as Lecurer
+            </span></li>
+            <li><span class="subitem">
+              {{number_tutor}} Courses as Teaching Assistant
+            </span></li>
+        </ul>
+      </li>
+      <li class="list-group-item">
+        <h5 class="font-italic">See the full list</h5>
+          <ul class="subitems">
+              <li><span class="subitem">
+                Online &nbsp; <a href = "https://www.silviofanzon.com/teaching/"><i class="fas fa-external-link-alt"></i></a>
+              </span></li>
+              <li><span class="subitem">
+                Download &nbsp; <a href = "https://www.silviofanzon.com/assets/pdf/Silvio_Fanzon_CV.pdf"><i class="fas fa-file-pdf"></i></a>
+              </span></li>
+          </ul>
+      </li>
+</ul>
