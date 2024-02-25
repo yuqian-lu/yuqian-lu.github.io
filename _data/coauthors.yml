@@ -1,47 +1,34 @@
-"Bredies":
-  - firstname: ["Kristian", "K.", "Kristian Bredies"]
-    url: https://scholar.google.com/citations?user=c1iKsfIAAAAJ
+"adams":
+  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"Carioni":
-  - firstname: ["Marcello", "M.", "Marcello Carioni"]
-    url: https://scholar.google.com/citations?user=OF5DarEAAAAJ
+"podolsky":
+  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+    url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
-"Fernandez":
-  - firstname: ["Adrian Martin", "A. M.", "Adrian Martin Fernandez"]
-    url: https://scholar.google.com/citations?user=DjufLqsAAAAJ
+"rosen":
+  - firstname: ["Nathan", "N."]
+    url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-"Fry":
-  - firstname: ["John", "J.", "John Fry"]
-    url: https://scholar.google.com/citations?user=_lmx_nUAAAAJ
+"bach":
+  - firstname: ["Johann Sebastian", "J. S."]
+    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
-"Malusa":
-  - firstname: ["Annalisa", "A.", "Annalisa Malusa"]
-    url: https://scholar.google.com/citations?user=8_h1W8kAAAAJ
+  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 
-"Palombaro":
-  - firstname: ["Mariapia", "M.", "Mariapia Palombaro"]
-    url: https://scholar.google.com/citations?user=RhU_lAoAAAAJ
+"przibram":
+  - firstname: ["Karl"]
+    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
 
-"Ponsiglione":
-  - firstname: ["Marcello", "M.", "Marcello Ponsiglione"]
-    url: https://scholar.google.com/citations?user=VRqZ_8cAAAAJ
+"schrodinger":
+  - firstname: ["Erwin"]
+    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
 
-"Romero":
-  - firstname: ["Francisco", "F.", "Francisco Romero"]
-    url: https://scholar.google.com/citations?user=Z0jytMcAAAAJ
+"lorentz":
+  - firstname: ["Hendrik Antoon"]
+    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
 
-"Scala":
-  - firstname: ["Riccardo", "R.", "Riccardo Scala"]
-    url: https://docenti.unisi.it/en/scala
-
-"Schlögl":
-  - firstname: ["Matthias", "M.", "Matthias Schlögl"]
-    url: https://scholar.google.com/citations?user=9PpLjE4AAAAJ
-
-"Stollberger":
-  - firstname: ["Rudolf", "R.", "Rudolf Stollberger"]
-    url: https://scholar.google.com/citations?user=5prEu_4AAAAJ
-
-"Walter":
-  - firstname: ["Daniel", "D.", "Daniel Walter"]
-    url: https://www.mathematik.hu-berlin.de/en/people/mem-vz/1694929
+"planck":
+  - firstname: ["Max"]
+    url: https://en.wikipedia.org/wiki/Max_Planck
