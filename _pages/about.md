@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='https://www.hull.ac.uk/staff-directory/silvio-fanzon'>Lecturer in Applied Mathematics</a>  &#64;  <a href='https://www.hull.ac.uk'>Hull</a>
+subtitle: <a href='https://profiles.auckland.ac.nz/yuqian-lu'>Senior Lecturer in Smart Manufacturing</a>  &#64;  <a href='https://www.auckland.ac.nz/'>UoA</a>
 
 profile:
   align: right
@@ -32,17 +32,17 @@ I am a Senior Lecturer in Smart Manufacturing in the [Department of Mechanical a
 </div>
 
 <div markdown="1" style="margin-top: 1.2rem;">
-My research is at the interface of <b>Inverse Problems</b>, <b>Optimization</b>, <b>PDEs</b> and <b>Variational Methods</b>. I am interested in applications to <b>Mathematical Imaging</b>, <b>Materials Science</b> and <b>Machine Learning</b>.
+I am interested in developing translatable intelligent system technologies to transform the workplace into a more efficient, enjoyable, and sustainable environment. His research aims to develop cognitive sensing, reasoning, control, and human interaction technologies with applications to manufacturing and construction.
 </div>
 
 <div markdown="1" style="margin-top: 1.2rem;">
-My contact information is **[here](https://www.silviofanzon.com/contact/)**. If you are interested in collaboration or supervision opportunities, please contact me at
+My contact information is **[here](https://www.yuqian.xyz/contact/)**. If you are interested in collaboration or supervision opportunities, please contact me at
 </div>
 
 <div markdown="1" style="text-align: center; margin-top: 0.8rem;">
-**[S.Fanzon@hull.ac.uk](mailto: S.Fanzon@hull.ac.uk)**
+**[yuqian.lu@auckland.ac.nz](mailto: yuqian.lu@auckland.ac.nz)**
 </div>
 
 <div markdown="1" style="margin-top: 1.2rem;">
-For Hull students: My office hours are <b>Wednesday 12:00-13:00</b> in Office 104a, Larkin Building
+Or, you are most welcomed to book a meeting with me via [here](https://outlook.office365.com/book/UniversityofAuckland2@UOA.onmicrosoft.com/)
 </div>
