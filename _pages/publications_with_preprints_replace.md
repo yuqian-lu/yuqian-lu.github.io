@@ -12,7 +12,7 @@ nav_order: 30
 
 
 <p markdown="1"> 
-Publications are divided in **<a href="#journal">Journal articles</a>**, **<a href="#preprint">Preprints</a>** and **<a href="#theses">Theses</a>**. 
+Publications are divided in **<a href="#journal">Journal articles</a>**, **<a href="#preprint">Conference</a>** and **<a href="#theses">Theses</a>**. 
 Authors are in alphabetical order 
 </p>
 
@@ -23,9 +23,9 @@ Authors are in alphabetical order
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
 {% bibliography -f publications_journal %}
 
-<a id="preprint"><h3 style="margin-top: 2.5rem; margin-bottom: 0.3rem;">Preprints</h3></a> 
+<a id="conference"><h3 style="margin-top: 2.5rem; margin-bottom: 0.3rem;">Conference</h3></a> 
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
-{% bibliography -f publications_preprint %}
+{% bibliography -f publications_conference %}
 
 <a id="theses"><h3 style="margin-top: 2.5rem; margin-bottom: 0.3rem;">Theses</h3></a>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
