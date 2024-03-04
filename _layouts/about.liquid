@@ -40,8 +40,18 @@ layout: default
             {{ content }}
           </div>
 
-         
-        
+        <hr style="margin-top: 2.5rem;">
+                    <h3 style="margin-bottom: 1rem; margin-top: 2.5rem;"><b>News</b></h3>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+
+        {% include video.liquid path="https://www.youtube.com/embed/jNQXAC9IVRw" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://auckland.au.panopto.com/Panopto/Pages/Embed.aspx?id=04a9e7c2-8aff-42b5-8465-aeea003382b0&autoplay=false&offerviewer=false&showtitle=true&showbrand=true&captions=true&interactivity=all" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
         <hr style="margin-top: 2.5rem;">
 
 
@@ -53,6 +63,16 @@ layout: default
             <a href="{{ '/news/' | relative_url }}"><b>past news</b></a>
           </p>
           {%- endif %}
+
+                    
+        <hr style="margin-top: 2.5rem;">
+
+       
+      <!-- Media-->
+       {% if page.media -%}
+       <h3 style="margin-bottom: 1rem; margin-top: 2.5rem;"><b>Media Coverage</b></h3>
+       {%- include media.liquid %}
+      {%- endif %}
           
           
         <hr style="margin-top: 2.5rem;">
