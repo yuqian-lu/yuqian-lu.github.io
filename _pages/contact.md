@@ -22,9 +22,9 @@ nav_order: 9
       <br>
       Faculty of Engineering
       <br>
-University of Auckland
+      University of Auckland
       <br>
-New Zealand
+      New Zealand
       <br style="line-height: 1.5rem;"/>
       &nbsp;
       <br>  
@@ -38,7 +38,7 @@ New Zealand
         <td> &nbsp; </td>
         <td> &nbsp; </td>
         </tr>
-        <tr>
+        <!-- <tr>
         <td> <i class="ai ai-google-scholar-square" style="font-size: 1.6em;"></i> </td>
         <td> &nbsp; <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}">Google Scholar</a> </td>
         </tr>
@@ -53,7 +53,7 @@ New Zealand
         <tr>
         <td> <i class="ai ai-scopus-square" style="font-size: 1.6em;"></i> </td>
         <td> &nbsp; <a href="https://www.scopus.com/authid/detail.uri?authorId={{site.scopus_id}}">Scopus</a> </td> 
-        </tr>
+        </tr> -->
         </tbody>
         </table>
 </div>  
