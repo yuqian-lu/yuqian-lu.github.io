@@ -40,15 +40,6 @@ Authors are in alphabetical order, unless marked by <i class="fas fa-hashtag" st
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
 {% bibliography -f publications_conference %}
 
-<!-- <a id="theses"><h3 style="margin-top: 3rem; margin-bottom: 0.3rem;"><b>Theses</b></h3></a>
-<hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
-{% bibliography -f publications_theses %}
-
-
-<a id="miscellaneous"><h3 style="margin-top: 3rem; margin-bottom: 0.3rem;"><b>Miscellaneous</b></h3></a>
-<hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
-{% bibliography -f publications_miscellaneous %} -->
-
 </div>
 
 
