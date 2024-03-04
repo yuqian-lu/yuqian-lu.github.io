@@ -36,7 +36,7 @@ I am interested in developing translatable intelligent system technologies to tr
 </div>
 
 <div markdown="1" style="margin-top: 1.2rem;">
-My contact information is **[here](https://www.yuqianlu.xyz/contact/)**. If you are interested in collaboration or supervision opportunities, please contact me at
+If you are interested in collaboration or supervision opportunities, please contact me at
 </div>
 
 <div markdown="1" style="text-align: center; margin-top: 0.8rem;">
