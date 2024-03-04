@@ -108,11 +108,12 @@ layout: default
       {%- endif %}
      
 
-      <hr style="margin-top: 1.6rem;">
+
 
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
+                <hr style="margin-top: 1.6rem;">
           <h3 style="margin-bottom: 1rem; margin-top: 2.5rem;"><b>Selected Publications</b></h3>
             {%- include selected_papers.liquid %}
            <p>
@@ -121,11 +122,12 @@ layout: default
           {%- endif %}
 
 
-        <hr style="margin-top: 2.5rem;">
+
 
 
          <!-- Current teaching -->
          {% if page.current_teaching -%}
+                 <hr style="margin-top: 2.5rem;">
          <h3 style="margin-bottom: 1rem; margin-top: 2.5rem;"><b>Current Teaching</b></h3>
             {% if page.current_courses -%}
                 {%- include current_teaching.liquid %}
