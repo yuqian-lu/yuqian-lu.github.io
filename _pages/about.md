@@ -11,7 +11,7 @@ profile:
   
     
 
-next: true  # includes a list of upcoming events  
+next: false  # includes a list of upcoming events  
 news: false  # includes a list of news items  
 
 current_teaching: false # includes current_teaching in homepage 

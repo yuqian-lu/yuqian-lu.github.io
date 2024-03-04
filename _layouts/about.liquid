@@ -79,11 +79,12 @@ layout: default
 
 
 
-        <hr style="margin-top: 2.5rem;">
+
 
 
         <!-- News -->
           {% if page.news -%}
+                  <hr style="margin-top: 2.5rem;">
             <h3 style="margin-bottom: 1rem; margin-top: 2.5rem;"><b><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></b></h3>
             {%- include news.liquid %}
           <p> 
@@ -96,11 +97,12 @@ layout: default
        <h3 style="margin-bottom: 1rem; margin-top: 2.5rem;"><b>Media</b></h3>
        {%- include media.liquid %}
                     
-        <hr style="margin-top: 2.5rem;">
+
 
        
       <!-- Upcoming events-->
        {% if page.next -%}
+               <hr style="margin-top: 2.5rem;">
        <h3 style="margin-bottom: 1rem; margin-top: 2.5rem;"><b>Upcoming Events</b></h3>
        {%- include next.liquid %}
       {%- endif %}
