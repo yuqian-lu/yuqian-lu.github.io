@@ -28,7 +28,7 @@ social: false  # includes social icons at the bottom of the page
 <h3 style="margin-bottom: 1.3rem"><b>About me</b></h3>
 
 <div markdown="1">
-I am a Senior Lecturer in Smart Manufacturing in the [Department of Mechanical and Mechatronics Engineering](https://www.auckland.ac.nz/en/engineering/about-the-faculty/mechanical-engineering.html) at the [University of Auckland](https://www.auckland.ac.nz/) in New Zealand.
+I am a Senior Lecturer in Smart Manufacturing in the [Department of Mechanical and Mechatronics Engineering](https://www.auckland.ac.nz/en/engineering/about-the-faculty/mechanical-engineering.html) at the [University of Auckland](https://www.auckland.ac.nz/) in New Zealand. I lead the [Industrial AI Research Group](https://uoa-iai.github.io/).
 </div>
 
 <div markdown="1" style="margin-top: 1.2rem;">
